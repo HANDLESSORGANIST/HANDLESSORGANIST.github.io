@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://8800bluelick.com/sitemap.xml
