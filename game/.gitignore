@@ -1,0 +1,8 @@
+# Never publish the plaintext game or the encryptor - only the encrypted index.html goes live.
+game.html
+tour.html
+calibrate.html
+tiletest.html
+catalog.html
+encrypt_game.py
+edited/
