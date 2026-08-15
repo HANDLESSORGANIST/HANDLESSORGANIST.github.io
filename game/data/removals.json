@@ -1,0 +1,74 @@
+{
+  "_doc": "Single source of truth for grabbable-item removals. The game fetches this at load to build GRABBABLES; edit_image.py reads/writes it to remove items from every view. Game reads: id,name,gives,amount,hotspot,views[].{sweep,face}. Pipeline also uses: views[].bbox, prompt, world, gap, status.",
+  "items": [
+    {
+      "id": "grab_pony",
+      "name": "a pink pony",
+      "gives": "tape",
+      "amount": 1,
+      "sprite": "sprites/pony.png",
+      "hotspot": {
+        "sweep": 0,
+        "yaw": -1.354,
+        "pitch": 0.597
+      },
+      "world": null,
+      "gap": null,
+      "status": "committed",
+      "prompt": "Remove the pink toy pony and the orange stuffed animal from inside the cardboard box. Fill the space with a realistic continuation of the cardboard box interior and the boxes and clutter behind them, matching the existing lighting, color, shadows, and film grain. Photorealistic, seamless, no toys.",
+      "views": [
+        {
+          "sweep": 0,
+          "face": 4,
+          "bbox": [
+            1000,
+            1470,
+            1500,
+            2005
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grab_destroybox",
+      "name": "the DO NOT DESTROY box",
+      "gives": "tape",
+      "amount": 1,
+      "world": [
+        -0.736,
+        -2.025,
+        1.317
+      ],
+      "gap": 0.143,
+      "status": "committed",
+      "prompt": "Remove the open cardboard box labeled 'DO NOT DESTROY'. Fill the space with a seamless, photorealistic continuation of the plain painted wall behind it, the door frame to the left, and the cardboard boxes stacked below and behind it, matching the existing lighting, color, shadows, and film grain. No box, no text, no cardboard where the box was.",
+      "hotspot": {
+        "sweep": 1,
+        "yaw": -0.409,
+        "pitch": -0.046
+      },
+      "views": [
+        {
+          "sweep": 1,
+          "face": 1,
+          "bbox": [
+            245,
+            660,
+            915,
+            1285
+          ]
+        },
+        {
+          "sweep": 0,
+          "face": 1,
+          "bbox": [
+            790,
+            850,
+            1130,
+            1200
+          ]
+        }
+      ]
+    }
+  ]
+}
