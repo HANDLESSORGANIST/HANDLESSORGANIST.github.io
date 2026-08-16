@@ -69,6 +69,34 @@
           ]
         }
       ]
+    },
+    {
+      "id": "grab_broom",
+      "name": "a broken broom top",
+      "gives": "tape",
+      "amount": 1,
+      "sprite": "sprites/broom.png",
+      "world": null,
+      "gap": null,
+      "status": "committed",
+      "prompt": "Remove the yellow-bristled broom head and its short white handle from the black TV-stand shelf. Fill the space with a seamless, photorealistic continuation of the flat black shelf surface and the plain wall behind it, matching the existing lighting, shadows, cables, and film grain. No broom, no bristles, no handle.",
+      "hotspot": {
+        "sweep": 126,
+        "yaw": 1.067,
+        "pitch": 0.24
+      },
+      "views": [
+        {
+          "sweep": 126,
+          "face": 2,
+          "bbox": [
+            375,
+            1250,
+            565,
+            1385
+          ]
+        }
+      ]
     }
   ]
 }
