@@ -97,6 +97,44 @@
           ]
         }
       ]
+    },
+    {
+      "id": "grab_litter",
+      "name": "two tubs of kitty litter",
+      "gives": "tape",
+      "amount": 2,
+      "sprite": "sprites/litter.png",
+      "world": null,
+      "gap": null,
+      "status": "committed",
+      "prompt": "Remove the two yellow PURINA TIDY CATS kitty-litter tubs, the metal mesh sifter on top, and the gray storage tote they sit in, from the corner of the room. Fill the space with a seamless, photorealistic continuation of the plain painted wall, the wall corner, and the hardwood floor, matching the existing lighting, shadows, and film grain. No tubs, no yellow containers, no tote.",
+      "hotspot": {
+        "sweep": 126,
+        "yaw": -2.487,
+        "pitch": 0.47
+      },
+      "views": [
+        {
+          "sweep": 126,
+          "face": 3,
+          "bbox": [
+            1600,
+            1405,
+            2046,
+            2035
+          ]
+        },
+        {
+          "sweep": 126,
+          "face": 4,
+          "bbox": [
+            2,
+            1540,
+            290,
+            2046
+          ]
+        }
+      ]
     }
   ]
 }
